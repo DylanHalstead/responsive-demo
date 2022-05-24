@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://traversymedia.com/images/grid.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Flexbox</div>
+        <ul class="nav-menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="testimonials.html"><li>Testimonies</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="contact">
+        <div class="container">
+            <form action="https://formspree.io/f/mdobbnqa" method="post" class="contact-form">
+                <h3>Get in Touch</h3>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <textarea name="message" id="message" placeholder="Message" rows="4" required></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="responsive.js"></script>
+</body>
+</html>
